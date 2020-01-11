@@ -4,6 +4,8 @@ This is a set of simple python scripts that test a method for generating spatial
 
 This will generate an (n * m) pixels intensity image (i.e. between 0 and 1) with an underlying noise structure.
 
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/spacenoise.png)
+
 ## Usage
 
 Run the scripts in your console using
