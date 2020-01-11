@@ -1,4 +1,4 @@
-#spacenoise
+# spacenoise
 
 This is a set of simple python scripts that test a method for generating spatially correlated noise. 
 
@@ -32,28 +32,28 @@ To make this faster, another version was written (spacenoise_reduced) that only 
 
 We require a definition of:
 
-  - Initial Condition
-  - Similarity Measure
-  - Sampling Distribution
+   - Initial Condition
+   - Similarity Measure
+   - Sampling Distribution
   
 for the algorithm to work. A few examples have been implemented!
 
 #### Initial Condition
 
-  - Uniformly Random
-  - Uniform 0.5
+   - Uniformly Random
+   - Uniform 0.5
       
 #### Similarity Measure
 
-    - Exponentiated euclidean pixel distance squared
-    - Exponentiated euclidean pixel distance non-squared
-    - Sine squared of euclidean pixel distance
+   - Exponentiated euclidean pixel distance squared
+   - Exponentiated euclidean pixel distance non-squared
+   - Sine squared of euclidean pixel distance
 
 #### Sampling Distribution
 
-    - Gaussian centered around neighbor with fixed variance
-    - Gaussian centered around average of neighbor and sampled pixel with fixed variance
-    - Gaussian centered around neighbor with variance determined by coupling strength
+   - Gaussian centered around neighbor with fixed variance
+   - Gaussian centered around average of neighbor and sampled pixel with fixed variance
+   - Gaussian centered around neighbor with variance determined by coupling strength
 
 ## Results
 
