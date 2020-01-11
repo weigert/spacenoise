@@ -63,6 +63,8 @@ I forgot exactly what parameters generated these results, but in general a long-
 
 If the results are too grainy, you can pass a gaussian filter over it.
 
+Average sampling gaussian also gives smoother results.
+
 ![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise2.png)
 
 ![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise3.png)
@@ -76,3 +78,5 @@ If the results are too grainy, you can pass a gaussian filter over it.
 ![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise7.png)
 
 ![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise8.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise9.png)
