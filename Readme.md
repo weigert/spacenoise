@@ -61,6 +61,8 @@ for the algorithm to work. A few examples have been implemented!
 
 I forgot exactly what parameters generated these results, but in general a long-distance coupling function (i.e. sine) worked best. Picking appropriate coupling scales for the image size is also important. Choosing smaller coupling numbers will give more "cut off" results, and larger ones will give smoother results.
 
+If the results are too grainy, you can pass a gaussian filter over it.
+
 ![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise2.png)
 
 ![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise3.png)
