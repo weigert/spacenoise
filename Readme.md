@@ -4,7 +4,7 @@ This is a set of simple python scripts that test a method for generating spatial
 
 This will generate an (n * m) pixels intensity image (i.e. between 0 and 1) with an underlying noise structure.
 
-![Example Generation](https://github.com/weigert/spacenoise/blob/master/spacenoise.png)
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise.png)
 
 ## Usage
 
@@ -59,4 +59,18 @@ for the algorithm to work. A few examples have been implemented!
 
 ## Results
 
-Coming in a second.
+I forgot exactly what parameters generated these results, but in general a long-distance coupling function (i.e. sine) worked best. Picking appropriate coupling scales for the image size is also important. Choosing smaller coupling numbers will give more "cut off" results, and larger ones will give smoother results.
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise2.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise3.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise4.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise5.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise6.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise7.png)
+
+![Example Generation](https://github.com/weigert/spacenoise/blob/master/results/spacenoise8.png)
